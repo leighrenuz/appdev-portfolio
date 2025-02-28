@@ -1,0 +1,183 @@
+/* General Styles */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #ffffff;
+}
+
+/* Navigation Bar */
+.navbar {
+    display: flex;
+    justify-content: stretch;
+    align-items: center;
+    padding: 20px 50px;
+    background-color: white;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+
+/* Adjust logo to stay on the left */
+.logo {
+    font-size: 30px;
+    font-weight: bold;
+    color: #389038;
+    white-space: nowrap;
+}
+
+/* Center Navigation Links */
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 100px;
+    margin:  auto; /* Centering */
+    padding: 0;
+}
+
+.nav-links li {
+    display: inline;
+}
+
+.nav-links a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+}
+
+.nav-links a:hover {
+    color: #389038;
+}
+
+
+/* Page Content */
+.content {
+    max-width: 1200px;
+    text-align: center;
+    padding: 100px 50px;
+    margin: 100px auto;
+}
+
+.content h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+}
+
+.content p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+}
+
+
+/* "Let's Talk" Button */
+.navbar .btn-primary {
+    padding: 10px 20px;
+    font-size: 16px;
+    border-radius: 5px;
+    text-decoration: none;
+    background-color: #389038;
+    color: white;
+    font-weight: bold;
+    border: none;
+    white-space: nowrap;
+}
+
+/* Main Layout */
+.container {
+    max-width: 1200px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px 50px;
+    margin-top: 80px;
+}
+
+/* Text Content */
+.text-content {
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 48px;
+    font-weight: bold;
+    color: #333;
+}
+
+h1 span {
+    color: #389038;
+}
+
+h2 {
+    font-size: 32px;
+    font-weight: bold;
+    color: #333;
+}
+
+p {
+    font-size: 18px;
+    color: #555;
+    line-height: 1.6;
+}
+
+/* Profile Image */
+.profile-img {
+    max-width: 400px;
+    border-radius: 10px;
+}
+
+/* Buttons */
+.buttons {
+    margin-top: 20px;
+}
+
+.btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+.btn-primary {
+    background-color:#389038;
+    color: white;
+    border: none;
+}
+
+.btn-secondary {
+    border: 2px solid #389038;
+    color:#389038;
+    background: none;
+}
+
+/* Responsive Fix for Smaller Screens */
+@media (max-width: 1024px) {
+    .navbar {
+        padding: 10px 30px;
+    }
+    .nav-links {
+        gap: 15px;
+    }
+    .navbar .btn-primary {
+        padding: 8px 16px;
+        font-size: 14px;
+    }
+}
+
+@media (max-width: 768px) {
+    .navbar {
+        flex-direction: column;
+        gap: 10px;
+        text-align: center;
+    }
+    .nav-links {
+        flex-direction: column;
+    }
+}
