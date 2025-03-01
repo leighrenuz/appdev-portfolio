@@ -3,16 +3,16 @@ body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ffffff;
+    background-color: #ede69e;
 }
 
-/* Navigation Bar */
-.navbar {
+/* Home Navbar Styles */
+.home-navbar {
     display: flex;
     justify-content: stretch;
     align-items: center;
     padding: 20px 50px;
-    background-color: white;
+    background-color: #20792c;
     box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
     position: fixed;
     width: 100%;
@@ -21,36 +21,74 @@ body {
     z-index: 1000;
 }
 
-/* Adjust logo to stay on the left */
-.logo {
+.home-navbar .logo {
     font-size: 30px;
     font-weight: bold;
-    color: #389038;
+    color: #ffffff;
     white-space: nowrap;
 }
 
-/* Center Navigation Links */
-.nav-links {
+.home-navbar .nav-links {
     list-style: none;
     display: flex;
     gap: 100px;
-    margin:  auto; /* Centering */
+    margin: auto; /* Centering */
     padding: 0;
 }
 
-.nav-links li {
+.home-navbar .nav-links li {
     display: inline;
 }
 
-.nav-links a {
+.home-navbar .nav-links a {
     text-decoration: none;
     font-size: 18px;
-    color: #333;
+    color: #ffffff;
     font-weight: bold;
 }
 
-.nav-links a:hover {
+.home-navbar .nav-links a:hover {
+    color: #ffffff;
+}
+
+/* PIT2 Navbar Styles */
+.pit2-navbar {
+    background-color: #20792c;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    left: 0;
+    padding: 20px 50px;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
+}
+
+.pit2-navbar ul {
+    list-style: none;
+    display: flex;
+    gap: 50px;
+    justify-content: space-evenly;
+    padding: 0;
+}
+
+.pit2-navbar ul li {
+    display: inline;
+}
+
+.pit2-navbar ul li a {
+    text-decoration: none;
+    font-size: 18px;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.pit2-navbar ul li a:hover {
     color: #389038;
+}
+/* PIT1 Image */
+.images-leighrenuz {
+    width: 200px;  /* Adjust the max-width to make the image smaller */
+ /* Optional: Add border-radius for rounded corners */
 }
 
 
@@ -65,37 +103,27 @@ body {
 .content h1 {
     font-size: 48px;
     font-weight: bold;
-    color: #333;
+    color: #5b2d2d;
 }
 
 .content p {
     font-size: 18px;
-    color: #555;
+    color: #5b2d2d;
     line-height: 1.6;
-}
-
-
-/* "Let's Talk" Button */
-.navbar .btn-primary {
-    padding: 10px 20px;
-    font-size: 16px;
-    border-radius: 5px;
-    text-decoration: none;
-    background-color: #389038;
-    color: white;
-    font-weight: bold;
-    border: none;
-    white-space: nowrap;
 }
 
 /* Main Layout */
 .container {
     max-width: 1200px;
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-between;
-    padding: 100px 50px;
-    margin-top: 80px;
+    justify-content: center;
+    height: auto; /* Adjust to fit the content */
+    text-align: center;
+    padding: 20px;
+    margin: 0 auto;
+    margin-top: 120px; /* Increased top margin to prevent overlap with navbar */
 }
 
 /* Text Content */
@@ -104,9 +132,9 @@ body {
 }
 
 h1 {
-    font-size: 48px;
+    font-size: 100px;
     font-weight: bold;
-    color: #333;
+    color: #5b2d2d;
 }
 
 h1 span {
@@ -116,13 +144,13 @@ h1 span {
 h2 {
     font-size: 32px;
     font-weight: bold;
-    color: #333;
+    color: #5b2d2d;
 }
 
 p {
     font-size: 18px;
-    color: #555;
-    line-height: 1.6;
+    color: #5b2d2d;
+    line-height: .6;
 }
 
 /* Profile Image */
@@ -146,14 +174,14 @@ p {
 }
 
 .btn-primary {
-    background-color:#389038;
+    background-color:#20792c;
     color: white;
     border: none;
 }
 
 .btn-secondary {
-    border: 2px solid #389038;
-    color:#389038;
+    border: 2px solid #20792c;
+    color:#20792c;
     background: none;
 }
 
@@ -180,4 +208,90 @@ p {
     .nav-links {
         flex-direction: column;
     }
+    .container {
+        margin-top: 150px; /* Adjusted for smaller screens if needed */
+    }
+}
+
+/* PIT ACTIVITY Boxes */
+.activity-box {
+    max-width: 600px;
+    background-color: #f0f4ff;
+    border-left: 8px solid #20792c;
+    border-radius: 8px;
+    padding: 20px;
+    margin: 20px auto;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: left;
+    cursor: pointer;
+    transition: transform 0.2s, box-shadow 0.2s;
+    text-decoration: none;
+    display: block;
+}
+
+.activity-box:hover {
+    transform: scale(1.02);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+}
+
+/* Initially hidden header */
+.activity-box .header {
+    font-size: 18px;
+    font-weight: bold;
+    color: #20792c;
+    margin-bottom: 10px;
+    display: none;
+}
+
+/* Styling for the boxes in the container */
+.box {
+    background-color: #d6dbeb;
+    border: 2px solid #20792c;
+    border-radius: 8px;
+    padding: 40px;
+    margin: 20px;
+    text-align: center;
+    width: 80%;
+    max-width: 500px; /* Adjusted box size */
+    font-size: 24px;
+    font-weight: bold;
+    color: #333;
+    cursor: pointer;
+    transition: transform 0.3s, box-shadow 0.3s;
+}
+
+/* Hover effects for the box */
+.box:hover {
+    transform: scale(1.05);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Adding a responsive adjustment for smaller screen sizes */
+@media (max-width: 768px) {
+    .box {
+        width: 90%;
+        padding: 20px;
+        font-size: 20px; /* Adjusted font size for smaller screens */
+    }
+    .container {
+        margin-top: 100px; /* Adjusted for smaller screens */
+    }
+}
+/* Footer Styles */
+footer {
+    position: fixed; /* Fixed position */
+    left: 0;
+    bottom: 0;
+    width: 100%; /* Full width */
+    background-color: #20792c; /* Background color */
+    padding: 20px;
+    text-align: center;
+    font-size: 16px;
+    color: #ffffff ;
+    margin: 0; /* Remove any margin */
+}
+
+footer p {
+    margin: 0;
+    color: #ffffff; /* Force text to be white */
 }
