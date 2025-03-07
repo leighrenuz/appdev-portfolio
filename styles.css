@@ -1,9 +1,12 @@
 /* General Styles */
-body {
-    font-family: Arial, sans-serif;
+body, html {
+    font-family: 'Roboto', sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #ede69e;
+    background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh; /* Ensure the body takes at least the full viewport height */
 }
 
 /* Home Navbar Styles */
@@ -85,12 +88,11 @@ body {
 .pit2-navbar ul li a:hover {
     color: #389038;
 }
+
 /* PIT1 Image */
 .images-leighrenuz {
     width: 200px;  /* Adjust the max-width to make the image smaller */
- /* Optional: Add border-radius for rounded corners */
 }
-
 
 /* Page Content */
 .content {
@@ -100,30 +102,19 @@ body {
     margin: 100px auto;
 }
 
-.content h1 {
-    font-size: 48px;
-    font-weight: bold;
-    color: #5b2d2d;
-}
-
-.content p {
-    font-size: 18px;
-    color: #5b2d2d;
-    line-height: 1.6;
-}
-
 /* Main Layout */
 .container {
     max-width: 1200px;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: center;
-    height: auto; /* Adjust to fit the content */
+    justify-content: flex-start; /* Changed to flex-start to ensure the content starts at the top */
+    height: auto;
     text-align: center;
     padding: 20px;
     margin: 0 auto;
     margin-top: 120px; /* Increased top margin to prevent overlap with navbar */
+    flex-grow: 1; /* Allow the content to grow and fill available space */
 }
 
 /* Text Content */
@@ -162,6 +153,9 @@ p {
 /* Buttons */
 .buttons {
     margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    gap: 15px;
 }
 
 .btn {
@@ -171,18 +165,33 @@ p {
     border-radius: 5px;
     text-decoration: none;
     font-weight: bold;
-}
-
-.btn-primary {
-    background-color:#20792c;
+    background-color: #20792c; /* Same as the header */
     color: white;
-    border: none;
+    border: 2px solid #20792c; /* Border color matching the header */
 }
 
-.btn-secondary {
-    border: 2px solid #20792c;
-    color:#20792c;
-    background: none;
+.btn:hover {
+    background-color: #f0f4ff; /* Light background on hover */
+    color: #20792c; /* Text color becomes the same as the header */
+}
+
+/* New Act4 Button */
+.act4-btn {
+    display: inline-block;
+    padding: 12px 24px;
+    font-size: 18px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-weight: bold;
+    background-color: #b112ff; /* Unique color for Act4 button */
+    color: white;
+    border: 2px solid #b112ff; /* Border color matching the button background */
+    transition: background-color 0.3s ease, color 0.3s ease;
+}
+
+.act4-btn:hover {
+    background-color: #5b2d2d; /* Darker background on hover */
+    color: #ffffff; /* Text color remains white */
 }
 
 /* Responsive Fix for Smaller Screens */
@@ -277,9 +286,10 @@ p {
         margin-top: 100px; /* Adjusted for smaller screens */
     }
 }
+
 /* Footer Styles */
 footer {
-    position: fixed; /* Fixed position */
+    position: relative; /* Changed from fixed to relative */
     left: 0;
     bottom: 0;
     width: 100%; /* Full width */
@@ -287,8 +297,8 @@ footer {
     padding: 20px;
     text-align: center;
     font-size: 16px;
-    color: #ffffff ;
-    margin: 0; /* Remove any margin */
+    color: #ffffff;
+    margin-top: auto; /* Ensures footer stays at the bottom */
 }
 
 footer p {

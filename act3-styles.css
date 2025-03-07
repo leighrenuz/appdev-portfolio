@@ -1,0 +1,152 @@
+/* General Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+/* Body and Container Styling */
+body {
+  font-family: Arial, sans-serif;
+  background-color: #ffffff;
+  color: #ffffff;
+  padding: 0 20px;
+  margin: 0;
+}
+
+/* Styling for the name in the profile */
+.name {
+  color: #fe5668;  /* Change this to the color you prefer */
+}
+
+.container {
+  text-align: center;
+  margin: 30px auto;
+}
+
+h1 {
+  font-size: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+/* Adjusted Image Size and Spacing */
+.images-leighrenuz {
+  width: 200px;  /* Increase the width */
+  height: 200px;  /* Increase the height */
+  border-radius: 50%;  /* Maintain the circular shape */
+  margin-right: 20px;  /* Add space to the right of the image */
+  margin-bottom: 1rem;  /* Keep space below the image */
+  margin-top: 10px;  /* Lower the image a bit more */
+  object-fit: cover;  /* Ensure the image fills the circle without distorting */
+}
+
+/* About, Skills, and Education Section */
+.info-container {
+  display: flex;
+  justify-content: space-around;
+  margin: 2rem 0;
+}
+
+.about-box, .skills-box, .education-box {
+  width: 30%;
+  padding: 1rem;
+  background-color: #fe5668;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.about-box h2, .skills-box h2, .education-box h2 {
+  margin-bottom: 1rem;
+}
+
+.skills-box ul {
+  list-style-type: none;
+}
+
+.skills-box ul li {
+  padding: 0.3rem 0;
+}
+
+/* Search Bar Styling */
+.search-bar {
+  width: 100%;
+  padding: 12px;
+  font-size: 1rem;
+  margin-bottom: 20px;
+  border: 2px solid #ccc;
+  border-radius: 8px;
+  outline: none;
+  transition: border-color 0.3s;
+}
+
+.search-bar:focus {
+  border-color: #fe5668;  /* Highlight border color when focused */
+}
+
+/* Dynamic Courses Section */
+.courses {
+  margin-top: 3rem;
+  margin-bottom: 4rem;
+  color: #fe5668;
+}
+
+#subject-list {
+  display: grid;
+  grid-template-columns: 1fr;
+  gap: 2rem;
+  margin-top: 2rem;
+}
+
+.subject-item {
+  display: grid;
+  grid-template-columns: 1fr; /* Single column for the year term */
+  gap: 1rem;
+  padding: 1.5rem;
+  background-color: #64a002;
+  border-radius: 8px;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.subject-item strong {
+  font-size: 1.5rem;
+  color: #ffffff;  /* Dark purple for the year term */
+  margin-bottom: 1rem;
+}
+
+.subject-item ul {
+  display: grid;
+  grid-template-columns: 1fr;  /* Single column for smaller screens */
+  gap: 0.5rem;
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.subject-item ul li {
+  font-size: 1rem;
+  padding: 0.3rem 0;
+  background-color: #ff9d8f;
+  border-radius: 5px;
+}
+
+/* Highlight Matching Subject */
+.subject-item.highlight {
+  background-color: #ff9d8f; /* Highlight color */
+  border: 2px solid #fe5668; /* Border color for highlighted items */
+}
+
+/* Adjusting layout for larger screens */
+@media (min-width: 768px) {
+  #subject-list {
+    grid-template-columns: 1fr 1fr;  /* Two columns for bigger screens */
+  }
+
+  .subject-item ul {
+    grid-template-columns: repeat(3, 1fr);  /* Display courses in 3 columns */
+  }
+}
+
+@media (min-width: 1024px) {
+  .subject-item ul {
+    grid-template-columns: repeat(4, 1fr);  /* Display courses in 4 columns for very large screens */
+  }
+}
