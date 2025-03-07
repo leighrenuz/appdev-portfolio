@@ -1,241 +1,261 @@
 {
-    "subjects": [
-      {
-        "yearTerm": "1st Year - 1st Semester",
-        "subjectCode": "IT111",
-        "descriptiveTitle": "Introduction to Computing",
-        "credit": 3
-      },
-      {
-        "yearTerm": "1st Year - 1st Semester",
-        "subjectCode": "IT112",
-        "descriptiveTitle": "Computer Programming 1",
-        "credit": 3
-      },
-      {
-        "yearTerm": "1st Year - 1st Semester",
-        "subjectCode": "PurCom",
-        "descriptiveTitle": "Purposive Communication",
-        "credit": 3
-      },
-      {
-        "yearTerm": "1st Year - 1st Semester",
-        "subjectCode": "RPH",
-        "descriptiveTitle": "Readings in Philippine History",
-        "credit": 3
-      },
-      {
-        "yearTerm": "1st Year - 1st Semester",
-        "subjectCode": "TCW",
-        "descriptiveTitle": "The Contemporary World",
-        "credit": 3
-      },
-      {
-        "yearTerm": "1st Year - 1st Semester",
-        "subjectCode": "MMW",
-        "descriptiveTitle": "Mathematics in the Modern World",
-        "credit": 3
-      },
-      {
-        "yearTerm": "1st Year - 1st Semester",
-        "subjectCode": "PATH FIT 1",
-        "descriptiveTitle": "Movement Enhancement",
-        "credit": 2
-      },
-      {
-        "yearTerm": "1st Year - 1st Semester",
-        "subjectCode": "NSTP101",
-        "descriptiveTitle": "ROTC/CWTS/LTS I",
-        "credit": 3
-      },
-      {
-        "yearTerm": "1st Year - 2nd Semester",
-        "subjectCode": "IT121",
-        "descriptiveTitle": "Computer Programming 2",
-        "credit": 3,
-        "preReq": "IT111, IT112"
-      },
-      {
-        "yearTerm": "1st Year - 2nd Semester",
-        "subjectCode": "IT122",
-        "descriptiveTitle": "Data Structures and Algorithms",
-        "credit": 3,
-        "preReq": "IT111, IT112"
-      },
-      {
-        "yearTerm": "1st Year - 2nd Semester",
-        "subjectCode": "IT123",
-        "descriptiveTitle": "Discrete Mathematics",
-        "credit": 3,
-        "preReq": "MMW"
-      },
-      {
-        "yearTerm": "1st Year - 2nd Semester",
-        "subjectCode": "ArtApp",
-        "descriptiveTitle": "Art Appreciation",
-        "credit": 3
-      },
-      {
-        "yearTerm": "1st Year - 2nd Semester",
-        "subjectCode": "UTS",
-        "descriptiveTitle": "Understanding the Self",
-        "credit": 3
-      },
-      {
-        "yearTerm": "1st Year - 2nd Semester",
-        "subjectCode": "PATH FIT 2",
-        "descriptiveTitle": "Fitness Activity and Exercises",
-        "credit": 2,
-        "preReq": "PATH FIT 1"
-      },
-      {
-        "yearTerm": "1st Year - 2nd Semester",
-        "subjectCode": "NSTP102",
-        "descriptiveTitle": "ROTC/CWTS/LTS II",
-        "credit": 3,
-        "preReq": "NSTP101"
-      },
-      {
-        "yearTerm": "1st Year - 2nd Semester",
-        "subjectCode": "STS",
-        "descriptiveTitle": "Science, Technology and Society",
-        "credit": 3
-      },
-      {
-        "yearTerm": "2nd Year - 1st Semester",
-        "subjectCode": "IT211",
-        "descriptiveTitle": "Intro to Human Computer Interaction",
-        "credit": 3,
-        "preReq": "IT121"
-      },
-      {
-        "yearTerm": "2nd Year - 1st Semester",
-        "subjectCode": "IT212",
-        "descriptiveTitle": "Fundamentals of Database Systems",
-        "credit": 3,
-        "preReq": "IT121, IT122"
-      },
-      {
-        "yearTerm": "2nd Year - 1st Semester",
-        "subjectCode": "IT213",
-        "descriptiveTitle": "Platform Technologies",
-        "credit": 3,
-        "preReq": "IT121"
-      },
-      {
-        "yearTerm": "2nd Year - 1st Semester",
-        "subjectCode": "IT214",
-        "descriptiveTitle": "Object Oriented Programming",
-        "credit": 3,
-        "preReq": "IT121, IT122"
-      },
-      {
-        "yearTerm": "2nd Year - 1st Semester",
-        "subjectCode": "IT215",
-        "descriptiveTitle": "Accounting Principles",
-        "credit": 3,
-        "preReq": "MMW"
-      },
-      {
-        "yearTerm": "2nd Year - 1st Semester",
-        "subjectCode": "PATH FIT 3",
-        "descriptiveTitle": "Physical Activity Towards Health and Fitness 1",
-        "credit": 2
-      },
-      {
-        "yearTerm": "2nd Year - 1st Semester",
-        "subjectCode": "EnviSci",
-        "descriptiveTitle": "Environmental Science",
-        "credit": 3
-      },
-      {
-        "yearTerm": "2nd Year - 2nd Semester",
-        "subjectCode": "IT221",
-        "descriptiveTitle": "Information Management",
-        "credit": 3,
-        "preReq": "IT212"
-      },
-      {
-        "yearTerm": "2nd Year - 2nd Semester",
-        "subjectCode": "IT222",
-        "descriptiveTitle": "Networking 1",
-        "credit": 3,
-        "preReq": "IT213"
-      },
-      {
-        "yearTerm": "2nd Year - 2nd Semester",
-        "subjectCode": "IT223",
-        "descriptiveTitle": "Web Systems and Technologies",
-        "credit": 3,
-        "preReq": "IT211, IT214"
-      },
-      {
-        "yearTerm": "2nd Year - 2nd Semester",
-        "subjectCode": "IT224",
-        "descriptiveTitle": "Systems Integration and Architecture",
-        "credit": 3,
-        "preReq": "IT212, IT213, IT214"
-      },
-      {
-        "yearTerm": "2nd Year - 2nd Semester",
-        "subjectCode": "Ethc",
-        "descriptiveTitle": "Ethics",
-        "credit": 3
-      },
-      {
-        "yearTerm": "2nd Year - 2nd Semester",
-        "subjectCode": "Rizal",
-        "descriptiveTitle": "Life and Works of Rizal",
-        "credit": 3
-      },
-      {
-        "yearTerm": "2nd Year - 2nd Semester",
-        "subjectCode": "PATH FIT 4",
-        "descriptiveTitle": "Physical Activity Towards Health and Fitness 2",
-        "credit": 2,
-        "preReq": "PATH FIT 3"
-      },
-      {
-        "yearTerm": "3rd Year - 1st Semester",
-        "subjectCode": "IT311",
-        "descriptiveTitle": "Information Assurance and Security",
-        "credit": 3,
-        "preReq": "IT221, IT222, IT223, IT224"
-      },
-      {
-        "yearTerm": "3rd Year - 1st Semester",
-        "subjectCode": "IT312",
-        "descriptiveTitle": "Networking 2",
-        "credit": 3,
-        "preReq": "IT222"
-      },
-      {
-        "yearTerm": "3rd Year - 1st Semester",
-        "subjectCode": "IT313",
-        "descriptiveTitle": "Mobile Programming",
-        "credit": 3,
-        "preReq": "IT223"
-      },
-      {
-        "yearTerm": "3rd Year - 1st Semester",
-        "subjectCode": "IT314",
-        "descriptiveTitle": "Software Engineering",
-        "credit": 3,
-        "preReq": "IT221, IT223"
-      },
-      {
-        "yearTerm": "3rd Year - 1st Semester",
-        "subjectCode": "IT315",
-        "descriptiveTitle": "IT Elective 1",
-        "credit": 3,
-        "preReq": "IT221, IT222, IT223"
-      },
-      {
-        "yearTerm": "3rd Year - 1st Semester",
-        "subjectCode": "ES211a",
-        "descriptiveTitle": "Technopreneurship",
-        "credit": 3
-      }
-    ]
+     "subjects": [
+  {
+    "yearTerm": "1st Year - 1st Semester",
+    "subjectCode": "IT111",
+    "descriptiveTitle": "Introduction to Computing",
+    "credit": 3
+  },
+  {
+    "yearTerm": "1st Year - 1st Semester",
+    "subjectCode": "IT112",
+    "descriptiveTitle": "Computer Programing 1",
+    "credit": 3
+  },
+  {
+    "yearTerm": "1st Year - 1st Semester",
+    "subjectCode": "PurCom",
+    "descriptiveTitle": "Purposive Communication",
+    "credit": 3
+  },
+  {
+    "yearTerm": "1st Year - 1st Semester",
+    "subjectCode": "RPH",
+    "descriptiveTitle": "Readings in Philippine History",
+    "credit": 3
+  },
+  {
+    "yearTerm": "1st Year - 1st Semester",
+    "subjectCode": "TCW",
+    "descriptiveTitle": "The Contemporary World",
+    "credit": 3
+  },
+  {
+    "yearTerm": "1st Year - 1st Semester",
+    "subjectCode": "MMW",
+    "descriptiveTitle": "Mathematics in the Modern World",
+    "credit": 3
+  },
+  {
+    "yearTerm": "1st Year - 1st Semester",
+    "subjectCode": "PATH FIT 1",
+    "descriptiveTitle": "Movement Enhancement",
+    "credit": 2
+  },
+  {
+    "yearTerm": "1st Year - 1st Semester",
+    "subjectCode": "NSTP101",
+    "descriptiveTitle": "ROTC/CWTS/LTS I",
+    "credit": 3
+  },
+  {
+    "yearTerm": "1st Year - 2nd Semester",
+    "subjectCode": "IT121",
+    "descriptiveTitle": "Computer Programing 2",
+    "credit": 3
+  },
+  {
+    "yearTerm": "1st Year - 2nd Semester",
+    "subjectCode": "IT122",
+    "descriptiveTitle": "Data Structures and Algorithms",
+    "credit": 3
+  },
+  {
+    "yearTerm": "1st Year - 2nd Semester",
+    "subjectCode": "IT123",
+    "descriptiveTitle": "Discrete Mathematics",
+    "credit": 3
+  },
+  {
+    "yearTerm": "1st Year - 2nd Semester",
+    "subjectCode": "ArtApp",
+    "descriptiveTitle": "Art Appreciation",
+    "credit": 3
+  },
+  {
+    "yearTerm": "1st Year - 2nd Semester",
+    "subjectCode": "UTS",
+    "descriptiveTitle": "Understanding the Self",
+    "credit": 3
+  },
+  {
+    "yearTerm": "1st Year - 2nd Semester",
+    "subjectCode": "PATH FIT 2",
+    "descriptiveTitle": "Fitness Activity and Exercises",
+    "credit": 2
+  },
+  {
+    "yearTerm": "1st Year - 2nd Semester",
+    "subjectCode": "NSTP 102",
+    "descriptiveTitle": "ROTC/CWTS/LTS II",
+    "credit": 3
+  },
+  {
+    "yearTerm": "1st Year - 2nd Semester",
+    "subjectCode": "STS",
+    "descriptiveTitle": "Science, Technology and Society",
+    "credit": 3
+  },
+  {
+    "yearTerm": "2nd Year - 1st Semester",
+    "subjectCode": "IT211",
+    "descriptiveTitle": "Intro to Human Computer Interaction",
+    "credit": 3
+  },
+  {
+    "yearTerm": "2nd Year - 1st Semester",
+    "subjectCode": "IT212",
+    "descriptiveTitle": "Fundamentals of Database Systems",
+    "credit": 3
+  },
+  {
+    "yearTerm": "2nd Year - 1st Semester",
+    "subjectCode": "IT213",
+    "descriptiveTitle": "Platform Technologies",
+    "credit": 3
+  },
+  {
+    "yearTerm": "2nd Year - 1st Semester",
+    "subjectCode": "IT214",
+    "descriptiveTitle": "Object Oriented Programming",
+    "credit": 3
+  },
+  {
+    "yearTerm": "2nd Year - 1st Semester",
+    "subjectCode": "IT215",
+    "descriptiveTitle": "Accounting Principles",
+    "credit": 3
+  },
+  {
+    "yearTerm": "2nd Year - 1st Semester",
+    "subjectCode": "PATH FIT 3",
+    "descriptiveTitle": "Physical Activity Towards Health and Fitness 1",
+    "credit": 2
+  },
+  {
+    "yearTerm": "2nd Year - 1st Semester",
+    "subjectCode": "EnviSci",
+    "descriptiveTitle": "Environmental Science",
+    "credit": 3
+  },
+  {
+    "yearTerm": "2nd Year - 2nd Semester",
+    "subjectCode": "IT221",
+    "descriptiveTitle": "Information Management",
+    "credit": 3
+  },
+  {
+    "yearTerm": "2nd Year - 2nd Semester",
+    "subjectCode": "IT222",
+    "descriptiveTitle": "Networking 1",
+    "credit": 3
+  },
+  {
+    "yearTerm": "2nd Year - 2nd Semester",
+    "subjectCode": "IT223",
+    "descriptiveTitle": "Web Systems and Technolgies",
+    "credit": 3
+  },
+  {
+    "yearTerm": "2nd Year - 2nd Semester",
+    "subjectCode": "IT224",
+    "descriptiveTitle": "Systems Integration and Architecture",
+    "credit": 3
+  },
+  {
+    "yearTerm": "2nd Year - 2nd Semester",
+    "subjectCode": "Ethc",
+    "descriptiveTitle": "Ethics",
+    "credit": 3
+  },
+  {
+    "yearTerm": "2nd Year - 2nd Semester",
+    "subjectCode": "Rizal",
+    "descriptiveTitle": "Life and Works of Rizal",
+    "credit": 3
+  },
+  {
+    "yearTerm": "2nd Year - 2nd Semester",
+    "subjectCode": "PATH FIT 4",
+    "descriptiveTitle": "Physical Activity Towards Health and Fitness 2",
+    "credit": 2
+  },
+  {
+    "yearTerm": "3rd Year - 1st Semester",
+    "subjectCode": "IT311",
+    "descriptiveTitle": "Information Assurance and Security",
+    "credit": 3
+  },
+  {
+    "yearTerm": "3rd Year - 1st Semester",
+    "subjectCode": "IT312",
+    "descriptiveTitle": "Networking 2",
+    "credit": 3
+  },
+  {
+    "yearTerm": "3rd Year - 1st Semester",
+    "subjectCode": "IT313",
+    "descriptiveTitle": "Mobile Programming",
+    "credit": 3
+  },
+  {
+    "yearTerm": "3rd Year - 1st Semester",
+    "subjectCode": "IT314",
+    "descriptiveTitle": "Software Engineering",
+    "credit": 3
+  },
+  {
+    "yearTerm": "3rd Year - 1st Semester",
+    "subjectCode": "IT315",
+    "descriptiveTitle": "IT Elective 1",
+    "credit": 3
+  },
+  {
+    "yearTerm": "3rd Year - 1st Semester",
+    "subjectCode": "ES211a",
+    "descriptiveTitle": "Technopreneurship",
+    "credit": 3
+  },
+  {
+    "yearTerm": "3rd Year - 2nd Semester",
+    "subjectCode": "IT321",
+    "descriptiveTitle": "CAPSTONE Project and Research 1",
+    "credit": 3
+  },
+  {
+    "yearTerm": "3rd Year - 2nd Semester",
+    "subjectCode": "IT322",
+    "descriptiveTitle": "Integrative Programming and Technologies",
+    "credit": 3
+  },
+  {
+    "yearTerm": "3rd Year - 2nd Semester",
+    "subjectCode": "IT323",
+    "descriptiveTitle": "Applications Development and Emerging Technologies",
+    "credit": 3
+  },
+  {
+    "yearTerm": "3rd Year - 2nd Semester",
+    "subjectCode": "IT324",
+    "descriptiveTitle": "Quantitative Methods",
+    "credit": 3
+  },
+  {
+    "yearTerm": "3rd Year - 2nd Semester",
+    "subjectCode": "IT325",
+    "descriptiveTitle": "IT Elective 2",
+    "credit": 3
+  },
+  {
+    "yearTerm": "3rd Year - 2nd Semester",
+    "subjectCode": "PICPE",
+    "descriptiveTitle": "Philippine Indigenous Communities and Peace Education",
+    "credit": 3
+  },
+  {
+    "yearTerm": "3rd Year - 2nd Semester",
+    "subjectCode": "FreeElec",
+    "descriptiveTitle": "Foreign Language",
+    "credit": 3
   }
-  
+]
